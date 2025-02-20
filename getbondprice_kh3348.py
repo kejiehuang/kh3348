@@ -14,13 +14,3 @@ def getBondPrice(y,face,couponRate,m,ppy=1):
   pv_face=face/(1+y/ppy)**N
   bondPrice=pv_coupons+pv_face
   return (bondPrice)
-
-#Test Values
-y=0.03
-face=2000000
-couponRate=0.04
-m=10
-ppy=1
-ppy=2
-
-getBondPrice(y,face,couponRate,m,ppy)
